@@ -1,0 +1,7 @@
+Holiday,Date,Recurring
+New Year,01-01,*
+Day of uprising against occupation,04-27,*
+Workers day,05-01,*
+Halloween,10-31,*
+Christmas,12-25,*
+Test non recurring event,2024-04-07,-

@@ -1,0 +1,29 @@
+{
+  "name": "koledar",
+  "version": "1.0.0",
+  "description": "Calendar App",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "pkg": {
+    "targets": [
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ],
+    "assets": [
+      "style.css",
+      "app.js",
+      "server.js",
+      "index.html",
+      "prazniki.txt"
+    ],
+    "output": "koledar-executable"
+  },
+  "author": "Adis Škrijelj"
+}

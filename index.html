@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class = "header">
+    <h1>Calendar App</h1>
+  </div>
+  <div class = "calendar-container">
+
+    <div class = "controls">
+
+      <div class="control-item">
+        <p>Select month:</p>
+        <select id = "month-select"></select>
+      </div>
+
+      <div class="control-item">
+        <p>Select year:</p>
+        <div class = "search-year">
+          <button id = "prev-year">Prev</button>
+          <input type = "text" id = "year" placeholder = "Year">
+          <button id = "next-year">Next</button>
+        </div>
+      </div>
+
+      <div class="control-item">
+        <p>Select date:</p>
+        <div class="input-date">
+          <input type="date" id="date">
+        </div>
+      </div>
+
+    </div>
+
+    <div class = "day-headers">
+      <div class="Mon">M</div>
+      <div class="Tue">T</div>
+      <div class="Wed">W</div>
+      <div class="Thu">T</div>
+      <div class="Fri">F</div>
+      <div class="Sat">S</div>
+      <div class="Sun">S</div>
+    </div>
+
+    <div class = "calendar-grid">
+
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
